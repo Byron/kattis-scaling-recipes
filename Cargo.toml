@@ -1,0 +1,13 @@
+[package]
+name = "cake"
+version = "1.0.0"
+authors = ["Sebastian Thiel <byronimo@gmail.com>"]
+publish = false
+
+[[bin]]
+name="cake"
+path="src/main.rs"
+
+[profile.release]
+incremental = false
+overflow-checks = false
